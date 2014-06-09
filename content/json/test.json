@@ -1,0 +1,14 @@
+{
+  "campo2": "soy el campo 2",
+  "campo1": {
+    "campo12": "hola",
+    "campo11": 45,
+    "campo13": 3
+  },
+  "campo3": {
+    "campo32": 24,
+    "campo31": "jojojo",
+    "campo33": "estoy cansado"
+  },
+  "campo50": 222
+}
