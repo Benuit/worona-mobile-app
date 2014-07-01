@@ -1,25 +1,27 @@
 {
 	"extensions": [
-		"customcontent",
-		"rate-my-app"
+	
 	],
 	"worona.includes" : [
 		"services",
-		"log",
-		"file",
-		"string",
-		"image",
-		"local_options",
-		"device",
-		"style",
 		"scene",
-		"load_page",
-		"content",
-		"style-ios7",
-		"style-flat-ui",
+
+
 		"basic-navbar",
-		"basic-tabbar",
-		"welcomescreen",
-		"webview"
+		"content",
+		"date",
+		"device",
+		"file",
+		"image",
+		"load_page",
+		"local_options",
+		"log",
+		"scene-list",
+		"string",
+		"style",
+		"style-flat-ui",
+		"style-ios7",
+		"webview",
+		"welcomescreen"
 	]
 }
