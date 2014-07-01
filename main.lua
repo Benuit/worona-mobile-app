@@ -7,7 +7,7 @@ worona.log:start( { level = "INFO", reset_log = true, console = true, file = "lo
 
 
 -- WORONA CONFIGURATION
-worona.app_url = "http://test.turismob.com"  --. Enter the url from which the app will read the data.
+worona.app_url = "http://example.org"  --. Enter the url from which the app will read the data.
 
 -- WORDPRESS URL
 worona.wp_url = "http://www.worona.org"
