@@ -36,6 +36,7 @@ settings =
 		plist =
 		{
 			CFBundleIconFile = "Icon.png",
+            CFBundleShortVersionString = "1.0",
 			CFBundleIconFiles =
 			{
 				"Icon.png",
