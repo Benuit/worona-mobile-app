@@ -41,46 +41,7 @@ elseif androidDisplayApproximateDpi ~= nil then
 end
 
 
--- NOTE: since iPad´s ratio (1.33333) is very different from other devices, 
--- we can uncomment this to set a customized resolution for the devices
--- with a reatio <= 1.4.
-
-
-
--- --IPAD AND SIMILAR RATIO DEVICES
-
--- if display.pixelHeight/display.pixelWidth<=1.4 then
---     application = 
---     {
---         content =
---         {
---             width = 360,
---             height = 480,
---             scale = "letterBox",
---             xAlign = "center",
---             yAlign = "center",
---             imageSuffix = 
---             {
---                 ["@2"] = 1.5,
---                 ["@4"] = 3.0,
---             },
---         },
---         notification = 
---         {
---             iphone = {
---                 types = {
---                     "badge", "sound", "alert"
---                 }
---             }
---         }
---     }
-
-
-
--- -- REST OF DEVICES
--- else
-
-    application = 
+application = 
     {
         content =
         {
@@ -103,8 +64,8 @@ end
                     "badge", "sound", "alert"
                 }
             }
-        }
+        },
+        launchPad = false
     }
 
--- end
 
