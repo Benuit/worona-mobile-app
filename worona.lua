@@ -1,1 +1,1 @@
-return require("worona.core.worona-load")( "worona" )
+return require("worona-core.worona-load")( "worona" )
