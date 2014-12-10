@@ -14,6 +14,7 @@ worona.wp_url                = "http://www.worona.org"  -- Enter the url from wh
 worona.app_title             = "Worona Blog"			-- Enter the main title of your app.
 worona.app_about_title       = "About Worona"			-- Enter the title of the about section.
 worona.app_about_description = "Worona is a Wordpress plugin that enables you to create native apps without programming knowledge. Once installed you can use WordPress to configure your app and create content.\n\nWorona is an open source initiative to make Wordpress native in the mobile world. And just like Wordpress, you can extend it with extensions made by you or the community.\n\nYou can visit us and learn more at www.worona.org."
+worona.app_number_of_posts   = 20			-- Choose the max number of posts to be shown in your app. Worona will always retrieve the latest posts.
 
 -- MISCELLANEUS CONFIGURATION
 worona.stats = true  -- Stats about worona usage.
