@@ -1,4 +1,3 @@
-[submodule "worona"]
-	path = worona
-url=https://github.com/Benuit/worona-app.git
-	branch = master
+[submodule "worona-core"]
+	path = worona-core
+	url = ../worona-core
