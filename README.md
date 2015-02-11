@@ -1,2 +1,2 @@
-worona-boilerplate
+worona-mobile-app
 ==================
