@@ -1,0 +1,69 @@
+
+                       
+		 _ _ _                     
+		| | | |___ ___ ___ ___ ___ 
+		| | | | . |  _| . |   | .'|
+		|_____|___|_| |___|_|_|__,|
+                           
+__________________________________________
+__________________________________________
+
+If you have any doubt, please contact us at
+hello@worona.org.
+
+
+----------
+  v0.7
+----------
+	- Improving the About page (now you can include your logo easily).
+	- Adding a lateral menu
+	- Adding Youtube Support
+	- Adding Favorite feature <3
+	- Improving the post-list code
+	- Improving scene-post when the App doesn't have good internet connection
+	- Fixing bug with long links inside posts.
+	- Fixing problem with iCloud and the downloaded content.
+	- Improving foreign characters support
+	- Fixing bugs with different types of WordPress installations (problems with the URLs)
+
+----------
+  v0.6.7
+----------
+	- Improving the content update system
+	- Preparing the App to support the "enhanced list" extension
+	- Cleaning up "style-flat-ui"
+	- Adding the /extensions folder
+
+----------
+  v0.6.6
+----------
+	- Fixing errors with the posts-list
+
+----------
+  v0.6.5
+----------
+	- Standarizing the repos, the mobile-side of Worona is
+	  now divided in two repos: worona-mobile-app and worona-core.
+
+	- Displaying alert when in the post-view when running the App
+	  in the simulator under Windows (Corona SDK doesn't support it).
+
+	- The App now controls if it has internet acces, and if it can't
+	  connect to the Blog.
+    
+	- The number of loaded posts is now a variable in main.lua
+
+	- Cleaning up /ui folder
+
+	- Fixing errors with the suspended webview
+
+	- Fixing errors when switching from WiFi to 3G network
+
+-------------------
+  Before - v0.6.5
+-------------------
+	- Our dog destroyed all the older documentation  ¯\_(ツ)_/¯
+
+----------------
+ www.worona.org
+----------------
