@@ -1,24 +1,36 @@
 settings =
 {
+	plugins =
+    {
+        ["CoronaProvider.native.popup.social"] =
+        {
+            publisherId = "com.coronalabs"
+        },
+    },
+
 	orientation =
 	{
 		default = "portrait",
-		supported = { "portrait", "portraitUpsideDown" }
+		supported = { "portrait", "portraitUpsideDown" },
 	},
 
 	 android =
     {
+        permissions =
+        {
+            { name = ".permission.C2D_MESSAGE", protectionLevel = "signature" },
+        },
         usesPermissions =
         {
-            -- Required by the MapView to fetch its contents from the Google Maps servers.
-            "android.permission.INTERNET",
-
-            -- Optional permission used to display current location via the GPS.
             "android.permission.ACCESS_FINE_LOCATION",
-
-            -- Optional permission used to display current location via WiFi or cellular service.
             "android.permission.ACCESS_COARSE_LOCATION",
-        },
+            "android.permission.INTERNET",
+            "android.permission.GET_ACCOUNTS",
+            "android.permission.RECEIVE_BOOT_COMPLETED",
+            "com.google.android.c2dm.permission.RECEIVE",
+            ".permission.C2D_MESSAGE",
+       },
+
         usesFeatures =
         {
             -- If you set permissions "ACCESS_FINE_LOCATION" and "ACCESS_COARSE_LOCATION" above,
@@ -30,7 +42,8 @@ settings =
             { name = "android.hardware.location.network", required = false },
         },
     },
-	
+
+
 	iphone =
 	{
 		plist =
@@ -52,7 +65,7 @@ settings =
                 "Icon-Small-50.png",
                 "Icon-Small-50@2x.png",
                 "Icon-Small.png",
-                "Icon-Small@2x.png" 
+                "Icon-Small@2x.png", 
 			},
 		},
 	},
