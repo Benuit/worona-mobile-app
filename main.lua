@@ -1,7 +1,7 @@
 -- ZERO BRANE STUDIO DEBUGGE
 -- require("mobdebug").start()
 
--- WORONA MOBILE APP VERSION: 0.7.2
+-- WORONA MOBILE APP VERSION: 0.7.3
 
 -- WORONA INITIALIZATION
 local worona = require "worona"
