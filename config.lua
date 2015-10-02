@@ -42,30 +42,31 @@ end
 
 
 application = 
+{
+    content =
     {
-        content =
+        width = SCREENWIDTH,
+        height = screenHeight,
+        fps = 60,
+        scale = "letterBox",
+        xAlign = "center",
+        yAlign = "center",
+        imageSuffix = 
         {
-            width = SCREENWIDTH,
-            height = screenHeight,
-            fps = 60,
-            scale = "letterBox",
-            xAlign = "center",
-            yAlign = "center",
-            imageSuffix = 
-            {
-                ["@2x"] = 1.5,
-                ["@4x"] = 3.0,
-            },
+            ["@2x"] = 1.5,
+            ["@4x"] = 3.0,
         },
-        notification = 
-        {
-            iphone = {
-                types = {
-                    "badge", "sound", "alert"
-                }
+    },
+    notification = 
+    {
+        iphone = {
+            types = {
+                "badge", "sound", "alert"
             }
         },
-        launchPad = false
-    }
-
-
+        google = {
+            projectNumber = "000000000000"
+        }
+    },
+    launchPad = false
+}
