@@ -66,6 +66,10 @@ settings =
                 "Icon-Small.png",
                 "Icon-Small@2x.png", 
 			},
+            NSAppTransportSecurity =
+            {
+                NSAllowsArbitraryLoads = true,
+            },
 		},
 	},
 }
